@@ -315,8 +315,8 @@ class _HomePageState extends State<HomePage> {
 
   Padding _subTitle(String subTitle) {
     return Padding(
-      padding: const EdgeInsets.symmetric(
-        horizontal: 60,
+      padding: const EdgeInsets.only(
+        left: 60,
       ),
       child: Text(
         subTitle,
